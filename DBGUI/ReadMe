@@ -1,0 +1,17 @@
+-DBGUI File separated with 4 files (excluding lib)
+    Connection file: has the Connection class between DB and java
+    DAO file: has all the java classes for DAO (Operations on DB seperated), inteface for the main DAO operations CRUD(Create, update, read, delete)
+    Enum file: has all the Enum files
+    Tables: has all the main tables (there are mutlitple ones excluded)
+
+-i seperated the files because it was too crowded.
+-when you make a class, make sure to put it in it's file, and put the keyword 'package file_name' so java doesn't lose the class. if you want to is a certin class that 
+is in another file write import file_name.class_name so you can access it
+
+-i tested few query (selectAll) and it works perfectly, but since i wanted to start on the main because i'm a bit confused on the DAO methods i wanted to give you this 
+zip file to know how the things are arranged
+
+-there is text file called SQL.txt. when testing the connection, you must has atleast MySQL. the SQL.txt file has the DB data, just import it on MySQL or HeidiSQL. make 
+sure your username in MySQL/ HeidiSQL called root, and the passwords is empty to match the connection class implementation
+
+-good luck! ^^

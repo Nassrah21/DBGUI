@@ -1,0 +1,3 @@
+For Nassrah:
+    put try/catch in main when making new objects
+    needs count users to generate id
